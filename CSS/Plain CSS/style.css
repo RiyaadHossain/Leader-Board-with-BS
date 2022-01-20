@@ -1,0 +1,15 @@
+.fill{
+    color: gold;
+    font-size: 12px;
+}
+
+.empty{
+    color: rgb(200, 189, 189);
+    font-size: 12px;
+}
+.duration{
+    background-color: #FFE4E8;
+    padding: 4px 10px;
+    border-radius: 20px;
+    color: red;
+}

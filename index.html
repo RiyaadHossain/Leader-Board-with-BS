@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader Board with Bootstrap</title>
 
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Link Bootstrap CSS -->
     <link rel="stylesheet" href="./CSS/Bootstrap CSS/bootstrap.min.css">
+
+    <!-- Link Plain CSS -->
+    <link rel="stylesheet" href="./CSS/Plain CSS/style.css">
 </head>
 <body style="background-color: #F3F1FF;">
 
@@ -38,7 +44,7 @@
                 <li class="nav-item">
                 <a class="nav-link active">Works</a>
                 </li>
-                <li class="nav-item ms-3">
+                <li class="nav-item ms-lg-3">
                     <img src="./Images/players/player-5.png" alt="" width="51" height="51">
                 </li>
             </ul>
@@ -52,8 +58,8 @@
 
 
 
-    <main>
-        <section class="container bg-white rounded my-4 py-3">
+    <main class="container">
+        <section class="bg-white rounded my-4 p-3">
             
             <!-- ################  Header Section Start  ################ -->
             <div class="p-3">
@@ -93,6 +99,8 @@
             <div class="p-3">
                 <div class="row  gy-4">
                     <h3 class="text-primary pb-1">Top Blogs</h3>
+
+                    <!-- Blog -->
                     <div class="col-lg-6 d-sm-flex">
                         <img src="./Images/blogs/blog-1.png" alt=""  width="177" width="117">
                         <div class="ms-2">
@@ -100,13 +108,17 @@
                             <span> By <a href="#" style="text-decoration: none; color: #562EFF;"> Kim Un </a> </span> 
                         </div>
                     </div>
+
+                    <!-- Blog -->
                     <div class="col-lg-6 d-sm-flex">
                         <img src="./Images/blogs/blog-2.png" alt=""  width="177" width="117">
                         <div class="ms-2">
-                            <h4>13 of My Favorite UI/UX Goodies</h4>
+                            <h4>7 typography tips for interface design</h4>
                             <span> By <a href="#" style="text-decoration: none; color: #562EFF;"> Kim Un </a> </span> 
                         </div>
                     </div>
+
+                    <!-- Blog -->
                     <div class="col-lg-6 d-sm-flex">
                         <img src="./Images/blogs/blog-3.png" alt=""  width="177" width="117">
                         <div class="ms-2">
@@ -114,13 +126,16 @@
                             <span> By <a href="#" style="text-decoration: none; color: #562EFF;"> Kim Un </a> </span> 
                         </div>
                     </div>
+
+                    <!-- Blog -->
                     <div class="col-lg-6 d-sm-flex">
                         <img src="./Images/blogs/blog-4.png" alt=""  width="177" width="117">
                         <div class="ms-2">
-                            <h4>13 of My Favorite UI/UX Goodies</h4>
+                            <h4>7 typography tips for interface design</h4>
                             <span> By <a href="#" style="text-decoration: none; color: #562EFF;"> Kim Un </a> </span> 
                         </div>
                     </div>
+
                 </div>
             </div>
             <!-- ################  Header Section End  ################ -->
@@ -131,13 +146,85 @@
 
         <!-- ################  Header Section Start  ################ -->
 
-        <section class="container">
+        <section class="bg-white rounded my-4 p-3">
             <div class="row gy-3"> 
-                <div class="col-lg-4 col-md-6 col-12"></div>
+                <h3 class="text-primary pb-1">Top Blogs</h3>
 
-                <div class="col-lg-4 col-md-6 col-12"></div>
+                <!-- Course -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card border-0 shadow p-2" style="width: 18rem;">
+                        <img src="/Images/courses/course-1.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Full Stact Web Developer 2050</h5>
+                            <p class="card-text text-danger">Donald Trump</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="star">
+                                    <i class="fas fa-star fill"></i>
+                                    <i class="fas fa-star fill"></i>
+                                    <i class="fas fa-star fill"></i>
+                                    <i class="fas fa-star fill"></i>
+                                    <i class="fas fa-star empty"></i>
+                                    <span class="text-muted ms-2">4.5</span>
+                                </div>
+                                <div class="duration">
+                                    <i class="fas fa-clock"></i>
+                                    <span class="ms-1">01:30 hr</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                <div class="col-lg-4 col-md-6 col-12"></div>
+                <!-- Course -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card border-0 shadow p-2" style="width: 18rem;">
+                        <img src="/Images/courses/course-2.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Powerpoint 2020 Master Powerpoint Cour</h5>
+                            <p class="card-text text-danger">Donald Trump</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="star">
+                                    <i class="fas fa-star fill"></i>
+                                    <i class="fas fa-star fill"></i>
+                                    <i class="fas fa-star fill"></i>
+                                    <i class="fas fa-star fill"></i>
+                                    <i class="fas fa-star empty"></i>
+                                    <span class="text-muted ms-2">4.5</span>
+                                </div>
+                                <div class="duration">
+                                    <i class="fas fa-clock"></i>
+                                    <span class="ms-1">01:30 hr</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card border-0 shadow p-2" style="width: 18rem;">
+                        <img src="/Images/courses/course-3.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">The Complete JavaScript Course 2020</h5>
+                            <p class="card-text text-danger">Donald Trump</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="star">
+                                    <i class="fas fa-star fill"></i>
+                                    <i class="fas fa-star fill"></i>
+                                    <i class="fas fa-star fill"></i>
+                                    <i class="fas fa-star fill"></i>
+                                    <i class="fas fa-star empty"></i>
+                                    <span class="text-muted ms-2">4.5</span>
+                                </div>
+                                <div class="duration">
+                                    <i class="fas fa-clock"></i>
+                                    <span class="ms-1">01:30 hr</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -146,5 +233,8 @@
 
     <!-- Link Bootstrap JS -->
     <script src="./JS/Bootstrap JS/bootstrap.bundle.min.js"></script>
+
+    <!-- Link Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
